@@ -29,7 +29,7 @@
 
 Pod::Spec.new do |s|
   s.name = 'SwiftGRPC'
-  s.version = '0.1.0'
+  s.version = '0.2.3'
   s.license  = 'New BSD'
   s.summary = 'Swift gRPC code generator plugin and runtime library'
   s.homepage = 'http://www.grpc.io'
@@ -44,5 +44,5 @@ Pod::Spec.new do |s|
 
   s.source_files = 'Sources/**/*.swift', 'Sources/**/*.[ch]'
 
-  s.dependency 'gRPC-Core', '~> 1.0.1'
+  s.dependency 'gRPC-Core'
 end
